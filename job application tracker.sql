@@ -100,5 +100,36 @@ insert into interviews (app_id, interview_date, feedback) VALUES
 select * from applicants;
 select * from applications;
 select * from interviews;
-select COUNT(*) AS total_applications from applications;
-select status, COUNT(*) from applications GROUP BY status;
+
+
+
+
+-- 1. Total number of applications by status (Applied, Interview, Rejected, Selected).
+
+
+-- 2. Applications per month (trend over time).
+
+
+-------------------------------------------------- Company Analysis
+
+-- 3. Top 5 companies with the highest number of applications.
+
+
+-- 4. Rejection rate per company (who rejects the most?).
+
+
+-------------------------------------------------- Applicant Analysis
+
+-- 5. Total applications submitted per applicant.
+
+
+-- 6. Selection rate per applicant (who’s doing best?).
+
+
+--------------------------------------------------- Role Insights
+
+-- 7. Top 5 most applied job roles.
+
+
+-- 8. Status distribution per role (Applied, Interview, Rejected, Selected).
+
