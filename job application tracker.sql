@@ -126,7 +126,7 @@ select * from interviews;
 -- 6. Selection rate per applicant (who’s doing best?).
 
 
---------------------------------------------------- Role Insights
+----------------------------------------------------- Role Insights
 
 -- 7. Top 5 most applied job roles.
 
