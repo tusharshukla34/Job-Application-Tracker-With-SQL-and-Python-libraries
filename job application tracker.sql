@@ -166,3 +166,4 @@ select job_role,count(*) as Number_of_application from applications group by job
 select job_role, status, count(*) AS count_per_status from applications
 group by job_role, status
 order by job_role, count_per_status DESC;
+
