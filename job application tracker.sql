@@ -160,10 +160,3 @@ ORDER BY selection_rate_percent DESC;
 
 select job_role,count(*) as Number_of_application from applications group by job_role order by Number_of_application desc limit 5;
 
--- 8. Status distribution per role (Applied, Interview, Rejected, Selected).
-
-
-select job_role, status, count(*) AS count_per_status from applications
-group by job_role, status
-order by job_role, count_per_status DESC;
-
