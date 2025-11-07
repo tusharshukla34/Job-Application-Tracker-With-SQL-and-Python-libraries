@@ -57,7 +57,6 @@ The project contains three main tables:
 5. Applications submitted per applicant  
 6. Selection rate per applicant  
 7. Top 5 most applied job roles  
-8. Status distribution per role  
 
 ### 🔹 Visuals Created:
 - Bar charts for category-based analysis  
